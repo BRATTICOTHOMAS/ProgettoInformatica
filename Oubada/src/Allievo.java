@@ -30,7 +30,40 @@ public class Allievo {
     }
 
 
-    public void iscriviti(){
+    public String getNome(){
+        return this.nome;
+    }
+
+    public int getEta(){
+        return this.eta;
+    }
+
+    public TipoCorso getTc(){
+        return this.tc;
+    }
+
+    public boolean isIscritto(){
+        return this.iscritto;
+    }
+
+
+    public void setIscritto(boolean iscritto, String t) {
+
+        if (iscritto) {
+
+            if (t == null) {
+
+                throw new IllegalArgumentException("Il tipo corso non può essere null");
+
+            }
+
+            this.tc = TipoCorso.valueOf(t.trim().toLowerCase());
+
+        } else {
+
+            this.tc = null;
+
+        }
 
     }
 
