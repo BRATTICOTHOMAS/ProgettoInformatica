@@ -1,3 +1,5 @@
+package Corso;
+
 public enum TipoCorso {
     pianista,
     violinista,
