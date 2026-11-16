@@ -1,4 +1,4 @@
-package Corso;
+package accademiaMusicale;
 
 import java.time.LocalDateTime;
 
@@ -6,7 +6,7 @@ public class Allievo {
     private String nome;
     private int eta;
     private boolean iscritto;
-    public TipoCorso tc;
+    private TipoCorso tc;
 
 
     public Allievo(String nome, int eta, String tipoCorso){

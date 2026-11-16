@@ -1,4 +1,4 @@
-package Corso;
+package accademiaMusicale;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

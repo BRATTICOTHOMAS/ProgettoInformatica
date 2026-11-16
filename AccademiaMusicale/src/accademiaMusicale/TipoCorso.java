@@ -1,4 +1,4 @@
-package Corso;
+package accademiaMusicale;
 
 public enum TipoCorso {
     pianista,

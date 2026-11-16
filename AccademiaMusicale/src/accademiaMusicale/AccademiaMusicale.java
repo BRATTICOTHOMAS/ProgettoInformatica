@@ -1,4 +1,4 @@
-package Corso;
+package accademiaMusicale;
 import java.util.ArrayList;
 import java.time.LocalDateTime;
 import java.util.Random;
@@ -88,7 +88,7 @@ public class AccademiaMusicale{
         controllaScadenzeCorsi();
         registro.scriviRegistro("Iniziato nuovo giorno di simulazione", this.dataCorrente);
     }
-    private void controllaScadenzeCorsi() {
+    public void controllaScadenzeCorsi() {
         for (int i = 0; i < corsi.size(); i++) {
             Corso c = corsi.get(i);
             if (c.getDisponibilita() && c.getInizio() != null) {

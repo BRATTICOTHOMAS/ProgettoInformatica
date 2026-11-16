@@ -1,4 +1,4 @@
-package Corso;
+package accademiaMusicale;
 import java.util.ArrayList;
 import java.time.LocalDateTime;
 public class Registro {
