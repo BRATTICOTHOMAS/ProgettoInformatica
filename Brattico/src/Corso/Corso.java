@@ -25,11 +25,9 @@ public class Corso {
         if (tipo == null) {
             throw new IllegalArgumentException("Il tipo corso non può essere null");
         }
-        try {
-            this.tipoCorso = TipoCorso.valueOf(tipo.trim().toUpperCase());
-        } catch (IllegalArgumentException e) {
-            throw new IllegalArgumentException("Tipo corso non esistente!!");
-        }
+
+            this.tipoCorso = TipoCorso.valueOf(tipo.trim().toLowerCase());
+
     }
     public LocalDateTime getInizio() {
         return inizio;
@@ -68,7 +66,7 @@ public class Corso {
     public int getnIscritti() {
         return nIscritti;
     }
-    public String getAllieviIscritti() {
+    public ArrayList<Allievo> getAllieviIscritti() {
         if (cancellato) {
             throw new IllegalArgumentException("IL CORSO è STATO CANCELLATO!!");
         }
@@ -76,7 +74,7 @@ public class Corso {
         for (int i = 0; i < allieviIscritti.size(); i++) {
             listaAllievi += allieviIscritti.get(i).toString() + "\n";
         }
-        return listaAllievi;
+        return this.allieviIscritti;
     }
     public boolean getDisponibilita() {
         return disponibilita;

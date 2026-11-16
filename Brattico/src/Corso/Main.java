@@ -7,8 +7,9 @@ public class Main{
 
 
 
-        Corso c= new Corso("pianista");
-
+        AccademiaMusicale accademiaMusicale=new AccademiaMusicale();
+        accademiaMusicale.aggiungiCorso(new Corso("pianista"));
+        IO.println(accademiaMusicale.toString());
 
     }
 }

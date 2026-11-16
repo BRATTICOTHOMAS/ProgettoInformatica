@@ -9,7 +9,7 @@ public class Allievo {
     public TipoCorso tc;
 
 
-    Allievo(String nome, int eta, String tipoCorso){
+    public Allievo(String nome, int eta, String tipoCorso){
         controlli(nome,eta,tipoCorso);
         iscritto = false;
     }
@@ -51,26 +51,11 @@ public class Allievo {
         return this.iscritto;
     }
 
-
-    public void setIscritto(boolean iscritto, String t) {
-
-        if (iscritto) {
-
-            if (t == null) {
-
-                throw new IllegalArgumentException("Il tipo corso non può essere null");
-
-            }
-
-            this.tc = TipoCorso.valueOf(t.trim().toLowerCase());
-
-        } else {
-
-            this.tc = null;
-
-        }
-
+    public void setIscritto(boolean iscritto){
+        this.iscritto=iscritto;
     }
+
+
 
 
     public void ControlloIscritti(LocalDateTime dataInizio1,LocalDateTime dataInizio2 ){
