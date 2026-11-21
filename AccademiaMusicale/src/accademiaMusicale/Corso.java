@@ -79,9 +79,11 @@ public class Corso {
     public boolean getDisponibilita() {
         return disponibilita;
     }
+    public TipoCorso getTipoCorso(){return this.tipoCorso;}
     public void setDisponibilita(boolean cambiaDisponibilita) {
         this.disponibilita = cambiaDisponibilita;
     }
+    public void setInizio(LocalDateTime inizio){this.inizio = inizio;}
     public void setFine(LocalDateTime fine) {
         this.fine = fine;
     }

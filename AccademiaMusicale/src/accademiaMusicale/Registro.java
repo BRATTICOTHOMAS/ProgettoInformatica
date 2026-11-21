@@ -1,6 +1,7 @@
 package accademiaMusicale;
 import java.util.ArrayList;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 public class Registro {
     private ArrayList<String> registrazioni;
 
@@ -11,10 +12,19 @@ public class Registro {
         if (messaggio == null || messaggio.trim().isEmpty()) {
             throw new IllegalArgumentException("Il messaggio del registro non può essere vuoto");
         }
-
-    }public ArrayList<String> getRegistrazioni() {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
+        String dataFormattata;
+        if (dataOra != null){
+            dataFormattata = dataOra.format(formatter);
+        }else{
+            dataFormattata = "Data N/D";
+        }
+        this.registrazioni.add("[" + dataFormattata + "] " + messaggio);
+    }
+    public ArrayList<String> getRegistrazioni() {
         return this.registrazioni;
-    }@Override
+    }
+    @Override
     public String toString() {
         if (registrazioni.isEmpty()) {
             return "Nessuna operazione registrata nel log.";
