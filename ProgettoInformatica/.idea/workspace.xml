@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a9e23d4-6b82-4ebd-9541-70c53c581590" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccademiaMusicale/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/AccademiaMusicale/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccademiaMusicale/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/AccademiaMusicale/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccademiaMusicale/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AccademiaMusicale/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccademiaMusicale/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AccademiaMusicale/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccademiaMusicale/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AccademiaMusicale/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccademiaMusicale/AccademiaMusicale.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AccademiaMusicale/AccademiaMusicale.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccademiaMusicale/src/accademiaMusicale/AccademiaMusicale.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccademiaMusicale/src/accademiaMusicale/AccademiaMusicale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccademiaMusicale/src/accademiaMusicale/Allievo.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccademiaMusicale/src/accademiaMusicale/Allievo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccademiaMusicale/src/accademiaMusicale/Corso.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccademiaMusicale/src/accademiaMusicale/Corso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccademiaMusicale/src/accademiaMusicale/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccademiaMusicale/src/accademiaMusicale/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccademiaMusicale/src/accademiaMusicale/Registro.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccademiaMusicale/src/accademiaMusicale/Registro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AccademiaMusicale/src/accademiaMusicale/TipoCorso.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccademiaMusicale/src/accademiaMusicale/TipoCorso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgettoInformatica.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgettoInformatica.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProgettoInformatica.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/ProgettoInformatica.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ProgettoInformatica/accademiaMusicale/AccademiaMusicale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgettoInformatica/accademiaMusicale/AccademiaMusicale.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ProgettoInformatica/accademiaMusicale/Allievo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgettoInformatica/accademiaMusicale/Allievo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ProgettoInformatica/accademiaMusicale/Corso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgettoInformatica/accademiaMusicale/Corso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ProgettoInformatica/accademiaMusicale/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgettoInformatica/accademiaMusicale/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ProgettoInformatica/accademiaMusicale/Registro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgettoInformatica/accademiaMusicale/Registro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/ProgettoInformatica/accademiaMusicale/TipoCorso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProgettoInformatica/accademiaMusicale/TipoCorso.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3MI4meMuKYSEOQe0wxAN6xMitq0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ADMIN/OneDrive - IIS G. Marconi/Desktop/ProgettoInformatica/ProgettoInformatica&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a9e23d4-6b82-4ebd-9541-70c53c581590" name="Changes" comment="" />
+      <created>1795024914669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1795024914669</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
